@@ -1,0 +1,25 @@
+#counter {
+  display: block;
+  font-family: Verdana;
+  font-size: 5em;
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.button-class {
+  padding: 10px 20px;
+  font-family: Verdana;
+  font-size: 1.5em;
+  background-color: rgb(13, 211, 225);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.button-class:hover{
+  background-color: rgb(0, 102, 255);
+}
