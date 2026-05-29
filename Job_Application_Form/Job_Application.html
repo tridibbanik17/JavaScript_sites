@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Job Application</title>
+</head>
+<body>
+  <form aria-label="Job Application Form">
+    <h1>Job Application Form</h1>
+    <label for="name">Full Name: </label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number: </label>
+    <input id="phone" type="tel" name="phone"><br><br>
+    
+    <label for="position">Position Applied For: </label>
+    <select id="position" name="position">
+      <option value="software-engineer">Software Engineer</option>
+      <option value="data-analyst">Data Analyst</option>
+      <option value="product-manager">Product Manager</option>
+    </select><br><br>
+
+    <label for="start-date">Start Date: </label>
+    <input id="start-date" name="start-date" type="date" required><br><br>
+
+    <label for="resume">Resume Upload (PDF only): </label>
+    <input id="resume" name="resume" type="file" accept=".pdf"><br><br>
+
+    <label for="cover-letter">Cover Letter: </label><br>
+    <textarea id="cover-letter" name="cover-letter" maxlength="500"></textarea>
+    <small>Max 500 characters</small><br><br>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <input id="male" name="gender" type="radio" value="male">
+      <label for="male">Male</label><br>
+
+      <input id="female" name="gender" type="radio" value="female">
+      <label for="female">Female</label><br>
+
+      <input id="prefer-not-to-say" name="gender" type="radio" value="prefer-not-to-say">
+      <label for="prefer-not-to-say">Prefer not to say</label>
+    </fieldset><br>
+
+    <input id="terms" name="terms" type="checkbox" required>
+    <label for="terms">I agree to the terms and conditions</label><br><br>
+
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</body>
+</html>
