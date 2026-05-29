@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+</head>
+<body>
+
+  <header>
+    <h1>Our Products</h1>
+    <label for="search">Search Products: </label>
+    <input type="text" id="search" placeholder="Search products...">
+    <button onclick="searchProducts()">Search</button>
+  </header>
+
+  <main>
+
+    <article class="product">
+      <img src="laptop.jpg" height="200" width="300" alt="Laptop Pro X">
+      <h3>Laptop Pro X</h3>
+      <p><strong>Price:</strong> $999.99</p>
+      <button onclick="addToCart()" aria-label="Add Laptop Pro X to Cart">Add to Cart</button>
+    </article>
+
+    <article class="product">
+      <img src="phone.jpg" height="200" width="300" alt="SmartPhone Y">
+      <h3>SmartPhone Y</h3>
+      <p><strong>Price:</strong> $499.99</p>
+      <button onclick="addToCart()" aria-label="Add SmartPhone Y to Cart">Add to Cart</button>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>© 2026 TechStore</p>
+  </footer>
+
+</body>
+</html>
