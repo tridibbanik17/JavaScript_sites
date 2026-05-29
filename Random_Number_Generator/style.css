@@ -1,0 +1,14 @@
+#roll {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 5em;
+  padding: 10px 20px;
+}
+
+body {
+  text-align: center;
+}
+
+#first, #second, #third {
+  font-size: 2em;
+}
